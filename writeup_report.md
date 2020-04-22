@@ -123,12 +123,12 @@ _________________________________________________________________
 
 To capture good driving behavior, I first recorded two laps on track one using center lane driving. Here is an example image of center lane driving:
 
-![alt text][./images/cameraimages.JPG]
+![alt text](./images/cameraimages.JPG)
 
 
 To augment the data sat, I also flipped images and angles thinking that this would ... For example, here is an image that has then been flipped:
 
-![alt text][./images/flippedimage.JPG]
+![alt text](./images/flippedimage.JPG)
 
 
 After the collection process, I had 37218 number of data points. Each image has a initial dimension of 160x320x3. I preprocessed this data by 50 pixels from above and 20 pixels from below. Then each image has the dimension of 90x320x3
